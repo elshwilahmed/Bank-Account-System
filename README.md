@@ -1,6 +1,6 @@
 # 🏦 Bank Account System
 
-This is a simple banking system built in C++ to help you understand object-oriented programming (OOP). It simulates basic banking operations like creating accounts, managing customers, and tracking transactions.
+This is a simple banking system built in C++ to demonstrating strong understanding of OOP principles. It simulates basic banking operations like creating accounts, managing customers, and tracking transactions.
 
 ---
 
@@ -41,3 +41,10 @@ Code
 2. Open the project in any C++ IDE (e.g., Code::Blocks, Visual Studio)
 3. Run `main.cpp`
 4. Follow the interactive menu to perform operations
+
+## 🔮 Future Improvements
+Implement File Handling to save data permanently.
+
+Add an Admin Login system.
+
+Refactor to use Smart Pointers for better memory safety.
