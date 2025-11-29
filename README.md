@@ -53,7 +53,7 @@ BankSystem/
 2. Open the project in any C++ IDE (e.g., Code::Blocks, Visual Studio)
 3. Run `main.cpp`
 4. Follow the interactive menu to perform operations
-
+---
 ### 🔮 Future Improvements
 Implement File Handling to save data permanently.
 
