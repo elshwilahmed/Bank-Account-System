@@ -29,10 +29,22 @@ This is a simple banking system built in C++ to demonstrating strong understandi
 
 ## 🏗️ Project Structure
 
-BankSystem/ │ ├── Bankaccount.h / .cpp # Manages bank accounts ├── Customer.h / .cpp # Manages customer data ├── Transaction.h / .cpp # Records transactions ├── Bank.h / .cpp # Oversees the entire banking system ├── main.cpp # Entry point of the program └── README.md # Project description
+The project follows a modular architecture (Header/Source file separation):
 
-Code
-
+```text
+BankSystem/
+├── 📂 src
+│   ├── Bank.cpp           # System logic & orchestration
+│   ├── BankAccount.cpp    # Account operations
+│   ├── Customer.cpp       # Customer data management
+│   ├── Transaction.cpp    # Logging mechanism
+│   └── main.cpp           # Entry point & interactive menu
+├── 📂 include
+│   ├── Bank.h
+│   ├── BankAccount.h
+│   ├── Customer.h
+│   └── Transaction.h
+└── README.md
 ---
 
 ## 🚀 How to Run
