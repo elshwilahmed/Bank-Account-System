@@ -29,32 +29,30 @@ This is a simple banking system built in C++ to demonstrating strong understandi
 
 ## 🏗️ Project Structure
 
-The project follows a modular architecture (Header/Source file separation):
+The project is designed with modularity in mind. Here is the file organization:
 
 ```text
 BankSystem/
-├── 📂 src
-│   ├── Bank.cpp           # System logic & orchestration
-│   ├── BankAccount.cpp    # Account operations
-│   ├── Customer.cpp       # Customer data management
-│   ├── Transaction.cpp    # Logging mechanism
-│   └── main.cpp           # Entry point & interactive menu
-├── 📂 include
+├── 📂 src                 # Source files (.cpp)
+│   ├── Bank.cpp
+│   ├── BankAccount.cpp
+│   ├── Customer.cpp
+│   ├── Transaction.cpp
+│   └── main.cpp
+├── 📂 include             # Header files (.h)
 │   ├── Bank.h
 │   ├── BankAccount.h
 │   ├── Customer.h
 │   └── Transaction.h
 └── README.md
----
----
-## 🚀 How to Run
+### 🚀 How to Run
 
 1. Make sure all project files are in one folder
 2. Open the project in any C++ IDE (e.g., Code::Blocks, Visual Studio)
 3. Run `main.cpp`
 4. Follow the interactive menu to perform operations
 
-## 🔮 Future Improvements
+### 🔮 Future Improvements
 Implement File Handling to save data permanently.
 
 Add an Admin Login system.
